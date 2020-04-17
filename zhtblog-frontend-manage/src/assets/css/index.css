@@ -1,0 +1,35 @@
+
+    /* 滚动条大小 */
+    ::-webkit-scrollbar {
+        width: 6px;
+        /* background-color: #eee; */
+      }
+  
+      /* 滚动条的滑轨背景颜色 */
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+  
+      /* 滑块颜色 */
+      ::-webkit-scrollbar-thumb {
+        background: #409eff;
+        opacity: .5;
+        border-radius: 10%;
+      }
+  
+      /* 滑轨两头的监听按钮颜色  */
+      ::-webkit-scrollbar-button {
+        background: #409eff;
+        display: none;
+      }
+  
+  
+      ::-webkit-scrollbar-corner {
+        background: #409eff;
+      }
+      /* #nprogress .bar { 自定义加载进度条颜色
+        background: red !important; 
+      } */
+  
+  
+  
