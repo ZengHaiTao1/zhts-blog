@@ -1,0 +1,43 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    username:
+    password: 
+    #password: 123456
+    url: 
+    #url: j
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      #<!-- 一个连接idle状态的最大时长（毫秒），超时则被释放（retired），缺省:10分钟 -->
+      connection-timeout: 30000
+      # <!-- 连接池中允许的最大连接数。缺省值：10
+      maximum-pool-size: 15
+      #minimum-idle: 10
+  redis:
+    #host: 127.0.0.1
+    host: 
+    password: 
+    #password: 
+    timeout: 2000
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+
+  servlet:
+    multipart:
+      max-file-size: 5MB
+#mybatis:
+#  mapper-locations: classpath:mybatis/mapper/*.xml
+#  type-aliases-package: com.springboot.pojo
+mybatis-plus:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.springboot.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.log4j2.Log4j2Impl
+logging:
+  pattern:
+    console: "%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n"
+  path: "./"
