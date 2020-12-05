@@ -81,8 +81,6 @@ if (localStorage.getExpire("zhtblog_token")) {
     });
 }
 
-
-
 console.log(localStorage.getExpire("zhtblog_token"))
 router.beforeEach((to, _from, next) => {
     console.log(localStorage.getExpire("zhtblog_token"))

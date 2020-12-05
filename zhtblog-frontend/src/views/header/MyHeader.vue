@@ -119,13 +119,6 @@ header {
             opacity: 1;
             transition: opacity 1s ease-in;
         }
-        // .title {
-        //     color: #4f4f4f;
-        // }
-        .motto {
-            color: #409eff;
-            font-size: 12px;
-        }
     }
     nav {
         display: inline-block;

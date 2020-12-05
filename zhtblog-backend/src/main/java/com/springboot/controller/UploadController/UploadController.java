@@ -28,11 +28,11 @@ import java.util.UUID;
 @Controller
 public class UploadController {
 
-    @Value("")
+    @Value("你的accessKey")
     private String accessKey;
-    @Value("")
+    @Value("自己的腾讯secretKey")
     private String secretKey;
-    @Value("")
+    @Value("以下一样")
     private String bucket;
     @Value("")
     private String bucketName;

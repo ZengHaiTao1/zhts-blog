@@ -6,6 +6,7 @@ import store from './store/index'
 //按需要引入UI
 import { Tag } from 'element-ui';
 Vue.use(Tag)
+
 //引入公共css
 import "@/assets/css/zht.css"
 import "@/assets/css/animate.css"
