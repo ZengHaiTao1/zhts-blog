@@ -38,7 +38,7 @@
     "purify-css": "^1.2.5",
     "purifycss-webpack": "^0.7.0",
     "px2rem-loader": "^0.1.9",
-    "qs": "^6.9.1",
+    "qs": "^6.9.7",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "useless-files-webpack-plugin": "^1.0.1",
     "vue-template-compiler": "^2.6.10",
